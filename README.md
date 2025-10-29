@@ -4,7 +4,7 @@ Beta Proxy is a custom TCP <--> WebSocket bridge built specifically for Minecraf
 
 This project does not contain any of Minecraft's intellectual property. This project does use the legacy Minecraft networking protocol. 
 
-> [!CAUTION]
+> [!WARNING]
 > **This proxy does not manipulate the contents of any packets. It reads packet data and pieces together fragments from the server to be sent over WebSockets. This proxy does not perform any malicious acts and was not made with the intent of performing any malicious acts.**
 
 # Why was this made?
@@ -25,8 +25,8 @@ Older Minecraft browser ports used a raw TCP to WebSocket proxy. TCP has no conc
   - `experimental_auto_detect_pvn`: Decides whether the proxy should enable the experiemental auto pvn detection.
   - `experimental_ip_forwarding`: Decides whether the proxy should enable the experiemental proxy-protocol based ip forwarding.
 
-> [!TIP]
->.It is recommended to use the default timeout of 15 seconds
+> [!NOTE]
+> It is recommended to use the default timeout of 15 seconds
 
 # Server PVN
 
