@@ -28,7 +28,7 @@ Older Minecraft browser ports used a raw TCP to WebSocket proxy. TCP has no conc
 > [!NOTE]
 > It is recommended to use the default timeout of 15 seconds
 
-# Server PVN
+### Server PVN
 
 The server properties file has to have a "minecraft_pvn" value set. The Server PVN is essentially the protocol version number that the client/server uses. This proxy needs to know what the PVN is as it uses the packet classes from the Minecraft client to fully read each packet received. Packets are different for each Minecraft version so if it doesn't know what the PVN is then it will use the wrong packet classes and read the wrong data.
 
