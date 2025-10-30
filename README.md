@@ -1,6 +1,6 @@
 # Beta Proxy
 
-Beta Proxy is a custom TCP <--> WebSocket bridge built specifically for Minecraft Golden Age Minecraft web ports.
+Beta Proxy is a custom TCP <--> WebSocket bridge built specifically for Minecraft Golden Age web ports.
 
 This project does not contain any of Minecraft's intellectual property. This project does use the legacy Minecraft networking protocol. 
 
